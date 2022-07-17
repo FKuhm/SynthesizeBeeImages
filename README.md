@@ -8,4 +8,8 @@ The folder **CodeByArchitecture** contains the scripts corresponding to the resp
 
 The folder **ImageCreationScriptsAndFigures** contains some images shown in the seminar work and partly the scripts necessary for their creation. In most cases, the image manipulation program Gimp was used. For three images OmniGraffle has been chosen. Images characterizing the training progress of a model are not included in the folder, but must be downloaded from the cloud analogous to the pth files (see below) due to their large number and corresponding size.
 
-Because of the size of the pth files of the trained models, they have been uploaded to the cloud *GigaMove* of the RWTH Aachen University. On this platform, they are still available for download until 2022-07-31. 
+Because of the size of the pth files of the trained models, they have been uploaded to the cloud *GigaMove* of the RWTH Aachen University[^1]. On this platform, they are still available for download until 2022-07-31.
+
+All FID scores has been calculated via [this package](https://github.com/GaParmar/clean-fid).
+
+[^1]: Zipped file can be downloaded from [this link](https://gigamove.rwth-aachen.de/de/download/2d8e5e00e8acf21ac99cfb37fa0e909f) (approx. 66.06 GB).
