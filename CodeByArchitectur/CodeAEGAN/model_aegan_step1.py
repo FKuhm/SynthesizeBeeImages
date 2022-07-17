@@ -413,13 +413,13 @@ def trainGAN_sweep(config, wandb, dir_path):
     # lr_gen, lr_disc, latent_dim, number_epochs, batch_size, wandb, path_to_input_dir, calculate_fid, n_critic
     print("\n Start of Training\n")
     print(config)
-    trainGAN(config.lr_gen, config.lr_disc, config.latent_dim, config.epochs, config.batch_size, wandb, dir_path, True, config.n_critic, "/home/ws/uwhbq/1_AEGAN/generated_bee_images",\
+    trainGAN(config.lr_gen, config.lr_disc, config.latent_dim, config.epochs, config.batch_size, wandb, dir_path, True, config.n_critic, "/./././generated_bee_images",\
         lr_dec=config.lr_dec, lr_enc=config.lr_enc, number_epochs_enc_dec= config.number_epochs_enc_dec)
     # Finished one run within this sweep.
 
 
 # Path to image directory:
-dir_path = "/home/ws/uwhbq/Code/bee_GAN/bee_images/Users/Florian-Kuhm/Documents/bee_images/"
+dir_path = "/././."
 
 
 # Set up your default hyperparameters
