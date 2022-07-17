@@ -1,0 +1,7 @@
+$(\underbrace{64}_{\substack{\text{number of} \\ \text{channels} } }\times \underbrace{128}_{\substack{\text{width of} \\ \text{image} } }\times \underbrace{128}_{\substack{\text{height of} \\ \text{image} } })$
+
+
+$(512\times 8\times 8)$
+
+
+
